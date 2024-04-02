@@ -1,0 +1,23 @@
+version: 2
+
+models:
+    - name: my_first_dbt_model
+      description: "A starter dbt model"
+      columns:
+          - name: student_id
+            description: "The primary key for this table; the student's ID number"
+            tests:
+                - unique
+                - not_null
+          - name: last_name
+            description: "The student's last name"
+            tests:
+                - not_null
+          - name: first_name
+            description: "The student's first name"
+            tests:
+                - not_null
+          - name: homeroom_teacher_name
+            description: "The student's homeroom teacher's name"
+            tests:
+                - not_null
