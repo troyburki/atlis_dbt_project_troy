@@ -1,8 +1,8 @@
 version: 2
 
 models:
-    - name: my_first_dbt_model
-      description: "A starter dbt model"
+    - name: Student_Homeroom_Teachers
+      description: "A model for identifying students and their homeroom teachers"
       columns:
           - name: student_id
             description: "The primary key for this table; the student's ID number"
