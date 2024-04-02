@@ -7,7 +7,7 @@ WITH base_data AS (
     _airbyte_meta,
     JSON_EXTRACT_ARRAY(columns) AS columns_array
   FROM
-    `dtsdatastore.Airbyte_Syncs.OfficialNotes`
+    `atlis-data-workshop.Blackbaud_AB.ListsAdvancedByListId`
 ),
 unnested_data AS (
   SELECT
