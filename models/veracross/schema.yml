@@ -21,7 +21,7 @@ models:
             description: "The student's homeroom teacher's name"
             tests:
                 - not_null
-    - name: Student_Advisors.sql
+    - name: Student_Advisors
       description: "A model for identifying students and their advisors"
       columns:
           - name: student_id
