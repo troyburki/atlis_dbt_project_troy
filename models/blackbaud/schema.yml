@@ -1,0 +1,22 @@
+version: 2
+
+models:
+    - name: Candidate_Decisions
+      description: "A model for candidate admissions decisions"
+      columns:
+          - name: Date_Processed
+            description: "Date the admissions decision was processed"
+            tests:
+                - not_null
+          - name: Date_Date
+            description: "Date the admissions decision was processed"
+            tests:
+                - not_null
+          - name: School_Decision
+            description: "Date the admissions decision was processed"
+            tests:
+                - not_null
+          - name: Candidate_Decision
+            description: "Date the admissions decision was processed"
+            tests:
+                - not_null
