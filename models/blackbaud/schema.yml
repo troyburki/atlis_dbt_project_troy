@@ -8,15 +8,15 @@ models:
             description: "Date the admissions decision was processed"
             tests:
                 - not_null
-          - name: Date_Date
-            description: "Date the admissions decision was processed"
+          - name: Decision_Date
+            description: "Date the admissions decision was made"
             tests:
                 - not_null
           - name: School_Decision
-            description: "Date the admissions decision was processed"
+            description: "The school's decision on the candidate"
             tests:
                 - not_null
           - name: Candidate_Decision
-            description: "Date the admissions decision was processed"
+            description: "The candidate's enrollment decision"
             tests:
                 - not_null
