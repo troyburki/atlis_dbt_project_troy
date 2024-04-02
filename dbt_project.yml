@@ -34,6 +34,12 @@ models:
         blackbaud:
             +dataset: Blackbaud_Models
             +materialized: table
+            +persist_docs:
+                relation: true
+                columns: true
         veracross:
             +dataset: Veracross_Models
             +materialized: table
+            +persist_docs:
+                relation: true
+                columns: true
