@@ -21,3 +21,27 @@ models:
             description: "The student's homeroom teacher's name"
             tests:
                 - not_null
+    - name: Student_Advisors.sql
+          description: "A model for identifying students and their advisors"
+          columns:
+              - name: student_id
+                description: "The primary key for this table; the student's ID number"
+                tests:
+                    - unique
+                    - not_null
+              - name: last_name
+                description: "The student's last name"
+                tests:
+                    - not_null
+              - name: first_name
+                description: "The student's first name"
+                tests:
+                    - not_null
+              - name: advisor_id
+                description: "The student's advisor's id"
+                tests:
+                    - not_null
+              - name: advisor_name
+                description: "The student's advisor's name"
+                tests:
+                    - not_null
