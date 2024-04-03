@@ -7,7 +7,7 @@ WITH base_data AS (
     _airbyte_meta,
     JSON_EXTRACT_ARRAY(columns) AS columns_array
   FROM
-    `atlis-data-workshop.Blackbaud_AB._CandidateInformation`
+    `atlis-data-workshop.Blackbaud_AB.CandidateInformation`
 ),
 unnested_data AS (
   SELECT
