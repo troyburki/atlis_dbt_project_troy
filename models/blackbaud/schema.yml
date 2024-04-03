@@ -20,3 +20,18 @@ models:
             description: "The candidate's enrollment decision"
             tests:
                 - not_null
+    - name: Candidate_Information
+      description: "A model for candidate admissions decisions"
+      columns:
+          - name: First_Name
+            description: "First name"
+            tests:
+                - not_null
+          - name: Last_Name
+            description: "Last name"
+            tests:
+                - not_null
+          - name: Entering_Grade
+            description: "The grade the student is apply for"
+            tests:
+                - not_null
