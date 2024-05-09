@@ -35,3 +35,22 @@ models:
             description: "The grade the student is apply for"
             tests:
                 - not_null
+    - name: Adv_cand_test
+      description: "A model for candidate admissions decisions"
+      columns:
+          - name: First_Name
+            description: "First name"
+            tests:
+                - not_null
+          - name: Last_Name
+            description: "Last name"
+            tests:
+                - not_null
+          - name: Entering_Grade
+            description: "The grade the student is apply for"
+            tests:
+                - not_null
+          - name: Entering_Year
+            description: "The school year the student is apply for"
+            tests:
+                - not_null
